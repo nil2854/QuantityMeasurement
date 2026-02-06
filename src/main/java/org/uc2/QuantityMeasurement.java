@@ -1,4 +1,4 @@
-package org.example;
+package org.uc2;
 import java.util.Scanner;
 
 public class QuantityMeasurement {

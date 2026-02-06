@@ -1,11 +1,11 @@
-package QuantityMeasurementTest;
+package uc2;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import org.example.QuantityMeasurement.FeetCompare;
-import org.example.QuantityMeasurement.InchesCompare;
+import org.uc2.QuantityMeasurement.FeetCompare;
+import org.uc2.QuantityMeasurement.InchesCompare;
 
 public class QuantityMeasurementTest {
 
@@ -40,6 +40,7 @@ public class QuantityMeasurementTest {
         FeetCompare f1=new FeetCompare(1.0);
         assertTrue(f1.equals(f1));
     }
+
     //for inches
     @Test
     public void testInchesEquality_SameValue(){
