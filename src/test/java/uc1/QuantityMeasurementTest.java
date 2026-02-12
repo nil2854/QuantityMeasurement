@@ -1,10 +1,10 @@
-package QuantityMeasurementTest;
-import org.example.QuantityMeasurement;
+package uc1;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import org.example.QuantityMeasurement.CompareValue;
+import org.uc1.QuantityMeasurement.CompareValue;
 
 public class QuantityMeasurementTest {
 
